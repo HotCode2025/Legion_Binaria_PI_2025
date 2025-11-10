@@ -9,9 +9,9 @@ public class Main {
         Stats stats = new Stats();
         Map<Integer, Game> juegos = new LinkedHashMap<>();
         juegos.put(1, new Ahorcado());
-        // juegos.put(2, new AutoObstaculos());
-        // juegos.put(3, new PiedraPapelTijera());
-        // juegos.put(4, new Penales());
+        juegos.put(2, new AutoObstaculos());
+        juegos.put(3, new PiedraPapelTijera());
+        juegos.put(4, new Penales());
         juegos.put(5, new Hanoi());
         juegos.put(6, new MemoryGame());
 
